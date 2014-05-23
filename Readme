@@ -1,5 +1,5 @@
 JDP 1. Bitmap Frenzy
-
+git reset --hard upstream/master
 Purpose
 -	Improve skills of working with specification
 -	Improve TDD skills
