@@ -1,6 +1,7 @@
 package pl.jojco.pojo;
 
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlRootElement;
@@ -13,7 +14,7 @@ public class Basket {
 	}
 	private int id;
 	private String name;
-	private List<Item> currentBasket;
+	private Set<Item> currentBasket=new HashSet<Item>(0);;
 
 	public Basket(String name) {
 		super();
@@ -37,11 +38,16 @@ public class Basket {
 		this.name = name;
 	}
 
-	public List<Item> getCurrentBasket() {
+	public Set<Item> getCurrentBasket() {
+		return currentBasket;
+	}
+	
+	public Set<Item> addItem(Item item) {
+		currentBasket.add(item);
 		return currentBasket;
 	}
 
-	public void setCurrentBasket(List<Item> currentBasket) {
+	public void setCurrentBasket(Set<Item> currentBasket) {
 		this.currentBasket = currentBasket;
 	}
 

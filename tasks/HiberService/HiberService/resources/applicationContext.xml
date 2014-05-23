@@ -18,4 +18,8 @@
 	<bean id="basketService" class="pl.jojco.services.BasketModifierService">
 		<property name="factory" ref="sessionFactory"></property>
 	</bean>
+	
+	<bean id="basketClient" class="pl.jojco.client.BasketClient">
+		<property name="factory" ref="sessionFactory"></property>
+	</bean>
 </beans>

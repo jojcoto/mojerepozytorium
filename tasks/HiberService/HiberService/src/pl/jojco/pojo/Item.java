@@ -3,7 +3,7 @@ package pl.jojco.pojo;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement
+@XmlRootElement(name = "Item")
 public class Item {
 
 	public Item(){
@@ -52,4 +52,10 @@ public class Item {
 	public void setBasket(Basket basket) {
 		this.basket = basket;
 	}
+
+	@Override
+	public String toString() {
+		return "Item [id=" + id + ", description=" + description + ", quantity=" + quantity  + "]";
+	}
+	
 }
