@@ -1,6 +1,6 @@
 # Evaluation
 
-## Topic overage
+## Topic coverage
 
 * JAXB: xsd to pojos, pojos to xsd
 * JAX-RS (REST services)
