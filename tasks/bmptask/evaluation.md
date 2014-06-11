@@ -27,5 +27,12 @@
 * Tests could be more smart: e.g. when rotating n times we should get the original image, width*height is constant after rotation, etc.
 * rotateTest is too generic name for a test method, instead it should explain what feature it tests
 * Don't see TDD and usage of mocks!
+* Revision graph (see network tab alongside) looks peculiar (master vs mater2 branches) but it look like git newbie's problems ;)
 
+## Recommendation for further training
+
+* Make use of git branches/merges to learn it -> lecture: Git documentation
+* Make TDD! -> lecture: Growing object-oriented system with tests
+* Learn about are the alternatives for static methods -> lecture: clean code
+* Do the exercise: imagine that customer now needs to rotate by 90, 180 and 270 degrees in given direction. How would you refactor the code?
 
