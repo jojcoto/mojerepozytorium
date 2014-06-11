@@ -28,6 +28,7 @@
 * rotateTest is too generic name for a test method, instead it should explain what feature it tests
 * Don't see TDD and usage of mocks!
 * Revision graph (see network tab alongside) looks peculiar (master vs mater2 branches) but it look like git newbie's problems ;)
+* Make sure you close all input/output streams
 
 ## Recommendation for further training
 
